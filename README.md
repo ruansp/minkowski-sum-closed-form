@@ -1,7 +1,7 @@
 # Closed-Form Minkowski Sums of Convex Bodies with Smooth Positively Curved Boundaries
 Matlab implementation for exact closed-form Minkowski sums of general convex bodies with smooth positively curved boundaries. Scripts are provided for all the results shown in the article.
 
-__The article__: Publisher (coming soon), [Arxiv](https://arxiv.org/abs/2012.15461)
+__The article__: [Publisher](https://www.sciencedirect.com/science/article/abs/pii/S0010448521001445), [Arxiv](https://arxiv.org/abs/2012.15461)
 
 ## Authors:
 + Sipu Ruan (repository maintainer): National University of Singapore, ruansp@nus.edu.sg
@@ -72,4 +72,18 @@ Demonstrations of collision detection using the proposed closed-form Minkowski s
 + __app_collision_3D.m__: Benchmarks of different collision detection algorithms between two superquadrics, i.e., Minkowski sum-based, implicit surface, common normal, GJK, algebraic separation condition (specific for two ellipsoids) *[Reproduce results in Table 3]*
 
 ## Citation
-Coming soon...
+If you find our work interesting or have used in your research, please consider citing our article:
+
+- Ruan, S. and Chirikjian, G.S., 2021. Closed-Form Minkowski Sums of Convex Bodies with Smooth Positively Curved Boundaries. Computer-Aided Design, p.103133.
+
+- BibTex:
+```
+@article{ruan2021closed,
+  title={Closed-Form Minkowski Sums of Convex Bodies with Smooth Positively Curved Boundaries},
+  author={Ruan, Sipu and Chirikjian, Gregory S},
+  journal={Computer-Aided Design},
+  pages={103133},
+  year={2021},
+  publisher={Elsevier}
+}
+```
