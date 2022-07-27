@@ -49,7 +49,12 @@ classdef SuperQuadrics < handle
                 obj.eps   = val{2};
                 obj.taper = val{3};
                 
-                obj.tc    = val{4};
+                if size(val{4},1) == 1
+                    obj.tc = val{4}';
+                else
+                    obj.tc = val{4};
+                end
+                
                 obj.q     = val{5};
                 
                 obj.N     = val{6};

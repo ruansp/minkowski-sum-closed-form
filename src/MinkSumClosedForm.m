@@ -38,12 +38,12 @@ classdef MinkSumClosedForm < handle
             if ( obj.dim == 2 )
                 if( obj.s2.eps == 1 )
                     obj.is_s2_e = true;
-                    obj.s2 = Ellipse([s2.a, 0, s2.tc', s2.ang, s2.N]);
+                    obj.s2 = Ellipse([s2.a, 0, s2.tc, s2.ang, s2.N]);
                 end
             elseif( obj.dim == 3 )
                 if( obj.s2.eps(1) == 1 && obj.s2.eps(2) == 1 )
                     obj.is_s2_e = true;
-                    obj.s2 = Ellipsoid({s2.a, [0,0], s2.tc', s2.q, s2.N});
+                    obj.s2 = Ellipsoid({s2.a, [0,0], s2.tc, s2.q, s2.N});
                 end
             end
         end
