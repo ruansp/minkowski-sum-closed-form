@@ -1,4 +1,6 @@
 # Closed-Form Minkowski Sums of Convex Bodies with Smooth Positively Curved Boundaries
+[![View Closed-form Minkowski sums on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/116000-closed-form-minkowski-sums)
+
 Matlab implementation for exact closed-form Minkowski sums of general convex bodies with smooth positively curved boundaries. Scripts are provided for all the results shown in the article.
 
 __The article__: [Publisher](https://www.sciencedirect.com/science/article/abs/pii/S0010448521001445), [Arxiv](https://arxiv.org/abs/2012.15461)
